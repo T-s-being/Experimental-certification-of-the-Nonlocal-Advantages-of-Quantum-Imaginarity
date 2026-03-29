@@ -9,6 +9,5 @@ The project [`MainProject2.m`](MainProject2.m) generates a theoretical figure fo
 
 It is worth noting that, due to the existence of multiple optimal solutions, the results obtained by running the program may differ from those given in the paper, yet they can all achieve optimal outcomes.
 
-Noting that because of the optimal solution 
 ## Dependencies
 - MATLAB (tested on R2022b)
