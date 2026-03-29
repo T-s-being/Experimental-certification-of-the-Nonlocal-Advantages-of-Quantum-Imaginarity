@@ -3,7 +3,7 @@ Matlab project relevant to the work reported in the preprint ["Experimental cert
 
 The Matlab function [`compute_NAQI.m`](compute_NAQI.m) computes the quantum parameter for the NAQI criterion for an arbitrary two‑qubit state $\rho_{AB}$.
 
-The project [`MainProject1.m`](MainProject1.m) generates a theoretical figure, in which the red line corresponds to the violation parameter $\Delta_{\mathrm{QI}}$ for $\rho_{\mathrm{B}}(p)$ with varying mixture parameter $p \in [0,1]$, and the dots represent our experimental choices. After the operation is completed, the optimal angles for the experimental dots are stored as rows in the variable `Experiment_x`. More precisely, the i‑th row `Experiment_x(i,:)` contains the optimal angle parameters $\lbrace \theta_1,\phi_1,\theta_2,\phi_2,\theta_3,\phi_3,\theta_4,\phi_4\rbarce$ (in radians) for the i‑th dot.
+The project [`MainProject1.m`](MainProject1.m) generates a theoretical figure, in which the red line corresponds to the violation parameter $\Delta_{\mathrm{QI}}$ for $\rho_{\mathrm{B}}(p)$ with varying mixture parameter $p \in [0,1]$, and the dots represent our experimental choices. After the operation is completed, the optimal angles for the experimental dots are stored as rows in the variable `Experiment_x`. More precisely, the i‑th row `Experiment_x(i,:)` contains the optimal angle parameters $\lbrace \theta_1,\phi_1,\theta_2,\phi_2,\theta_3,\phi_3,\theta_4,\phi_4\rbrace$ (in radians) for the i‑th dot.
 
 The project [`MainProject2.m`](MainProject2.m) generates a theoretical figure for $\rho_{\mathrm{W}}(p)$, which is analogous to `MainProject1`.
 
